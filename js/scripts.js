@@ -15,15 +15,15 @@ function beepBoop(input) {
       }
     }
     else {
+      let numString;
       let iSplitArray = [];
-      iSplitArray.push(numArray[i].toString());
-      console.log(iSplitArray);
-      iSplitArray.split('');
+      numString = numArray[i].toString();
+      console.log(numString);
+      iSplitArray = numString.split('');
       console.log(iSplitArray);
       iSplitArray.forEach(function(element) {
         if(element === "1") {
-          iSplitArray = "Beep!";
-          iSplitArray = numArray[i];
+          numArray[i] = "Beep!";
         }
       });
     }
