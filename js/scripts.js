@@ -9,6 +9,9 @@ function beepBoop(input) {
     else if (numArray[i] === 2) {
       numArray[i] = "Boop!";
     }
+    else if (numArray[i] === 3) {
+      numArray[i] = "Won't you be my neighbor?";
+    }
   }
   return numArray;
 }
