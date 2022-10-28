@@ -6,6 +6,9 @@ function beepBoop(input) {
     if(numArray[i] === 1) {
       numArray[i] = "Beep!";
     } 
+    else if (numArray[i] === 2) {
+      numArray[i] === "Boop!";
+    }
   }
   return numArray;
 }
