@@ -7,7 +7,7 @@ function beepBoop(input) {
       numArray[i] = "Beep!";
     } 
     else if (numArray[i] === 2) {
-      numArray[i] === "Boop!";
+      numArray[i] = "Boop!";
     }
   }
   return numArray;
