@@ -22,7 +22,10 @@ function beepBoop(input) {
       iSplitArray = numString.split('');
       console.log(iSplitArray);
       iSplitArray.forEach(function(element) {
-        if(element === "1") {
+        if(element === "2") {
+          numArray[i] = "Boop!";
+        }
+        else if(element === "1") {
           numArray[i] = "Beep!";
         }
       });
