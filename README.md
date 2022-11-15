@@ -1,3 +1,19 @@
+# Mr. Roboger's Neighborhood
+
+### By Philip Kendall
+
+#### This webpage takes a user's inputted number and creates and manipulates the array to various degrees, mostly affecting integers that contain a digit of 3, 2, or 1.
+
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* Git
+
+## Description
+
 Describe: beepBoop()
 
 Test: "It should return an array of numbers from 0 to the user's inputted number"
@@ -39,3 +55,37 @@ Expected Output [0,'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8,
 Test: "It should complete all of the tasks listed above, as well as if a value contains a 1, and 2 digit only, then "Boop!" will become the replacement for that value. If the value contains a 1, or 2 and a 3 as one of the digits, then 'Won't you be my neighbor?' will the become the replacement of the value.
 Code: beepBoop(23); 
 Expected Output: [0,'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!','Won't you be my neighbor?', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Boop!', 'Boop!', 'Boop!', 'Won't you be my neighbor?']
+
+## Setup/Installation Requirements
+
+* Fork over the the repository to your own Github account.
+* Clone your Github repo down to your local machine and into the directory you would like this project to be stored.
+* Navigate to the index.html file and open it in your browser.
+* After that, the application should be able to run.
+
+## Known Bugs
+
+N/A
+
+## License
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The below copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) 2022 Philip Kendall

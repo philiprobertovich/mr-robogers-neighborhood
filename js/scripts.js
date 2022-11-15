@@ -2,17 +2,17 @@
 function beepBoop(input) {
   let numArray =[];
   for (let i = 0; i <= input; i++) {
-    numArray.push(i.toString());
+    numArray.push(i.toString() + " ");
   }
   for (let i = 0; i < numArray.length; i++) {
     if (numArray[i].includes("3")){
-      numArray[i] = "Won't you be my neighbor?";
+      numArray[i] = "Won't you be my neighbor? ";
     }
     else if (numArray[i].includes("2")) {
-      numArray[i] = "Boop!";
+      numArray[i] = "Boop! ";
     }
     else if (numArray[i].includes("1")) {
-      numArray[i] = "Beep!";
+      numArray[i] = "Beep! ";
     }
   }
   return numArray;
@@ -30,5 +30,5 @@ function getAndProcessFormData(event) {
 
 window.addEventListener("load", function() {
   const form = document.getElementById("form");
-  form.addEventListener("submit", getAndProcessFormData() )
+  form.addEventListener("submit", getAndProcessFormData)
 })
