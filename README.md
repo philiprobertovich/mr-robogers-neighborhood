@@ -28,7 +28,14 @@ Test: "It should return an array that counts up to the user's inputted value, an
 Code: beepBoop(11);
 Expected Output: [0,'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!']
 
-Test: "It should return an array that counts up to the user's inputted value, and if one of the values of the array element is equal to 1, it will change that value to 'Beep!'. If one of the values is equal to 2, it will change that value to 'Boop!'. If one of the values is 3, it will change the value to 'Won't you be my neighbor?'." If the value is greater than 10, and includes the digit 1, it will change the value to 'Beep!'. Enless the value also contains a 2 as one of the other digits, then that value will be changed to 'Boop!'."
+Test: "It should return an array that counts up to the user's inputted value, and if one of the values of the array element is equal to 1, it will change that value to 'Beep!'. If one of the values is equal to 2, it will change that value to 'Boop!'. If one of the values is 3, it will change the value to 'Won't you be my neighbor?'." If the value is greater than 10, and includes the digit 1, it will change the value to 'Beep!'. Unless the value also contains a 2 as one of the other digits, then that value will be changed to 'Boop!'."
 Code: beepBoop(12);
 Expected Output: [0,'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!']
 
+Test: "It should complete all of the tasks listed above, as well as if a value contains digits that include a 1 and 3, then the 3 will gain priority, and 'Won't you be my neighbor?' will replace that current value.
+Code: beepBoop(13);
+Expected Output [0,'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!','Won't you be my neighbor?']
+
+Test: "It should complete all of the tasks listed above, as well as if a value contains a 1, and 2 digit only, then "Boop!" will become the replacement for that value. If the value contains a 1, or 2 and a 3 as one of the digits, then 'Won't you be my neighbor?' will the become the replacement of the value.
+Code: beepBoop(23); 
+Expected Output: [0,'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop!','Won't you be my neighbor?', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Beep!', 'Boop!', 'Boop!', 'Boop!', 'Won't you be my neighbor?']
